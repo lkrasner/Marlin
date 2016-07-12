@@ -2,6 +2,8 @@
 // NEVER put it in the repository
 _Version.h
 
+*.hex
+
 // All of the following OS, IDE and compiler generated file
 // references should be moved from this file
 // They are needed, but they belong in your global .gitignore
