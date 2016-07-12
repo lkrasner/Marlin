@@ -98,7 +98,7 @@
 // This determines the communication speed of the printer
 // :[2400,9600,19200,38400,57600,115200,250000]
 //#define BAUDRATE 250000
-#define BAUDRATE 1152000
+#define BAUDRATE 115200
 
 // Enable the Bluetooth serial interface on AT90USB devices
 //#define BLUETOOTH
@@ -187,7 +187,7 @@
 #define TEMP_SENSOR_0 1
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
-//#define TEMP_SENSOR_3 0
+#define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_BED 1
 
 // This makes temp sensor 1 a redundant sensor for sensor 0. If the temperatures difference between these sensors is to high the print will be aborted.
